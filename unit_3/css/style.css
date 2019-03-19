@@ -1,0 +1,52 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	font-family: "Trebuchet MS", sans-serif;
+}
+
+header, main, footer {
+	text-align: center;
+}
+
+header, footer {
+	background-color: #cdbdc4
+}
+
+nav a, a {
+	color: white;
+	text-decoration: underline;
+}
+
+main {
+	height: 800px;
+	width: 100%;
+	background: url(../images/plates.jpg);
+	background-size: cover;
+	opacity: 0.5;
+}
+
+h1, #slogan{
+	color: white;
+}
+
+#shopnow, h1 { 
+	padding-top: 200px }
+
+
+#slogan { 
+	font-family:  Didot, serif;
+	font-style: italic;
+}
+
+/*img { 
+	width: 100%; 
+}
+*/
+/*#slogan { 
+	font-family:  "Brush Script MT", cursive;
+	font-weight: normal;
+	font-size: 22px;
+}*/

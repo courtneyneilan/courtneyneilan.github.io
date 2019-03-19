@@ -2,6 +2,44 @@ body {
     background-color: #cdbdc4;
 }
 
+#maintitle, #navheader {
+	text-align: center;
+}
+
+#maintitle {
+	background: url(..images/plates.jpg);
+	background-size: cover;
+}
+
+p {
+	  font-family: Helvetica, sans-serif;
+}
+
 h1, p {
     color: white;
+}
+
+#plates, #holiday {
+	text-align: left;
+}
+
+#bowls, #kitchen {
+	text-align: right;
+}
+
+#plates {
+	background: url(../images/plates.jpg);
+	background-size: cover;
+}
+
+#bowls {
+	background: url(../images/bowls.jpg)
+}
+
+#holiday {
+	background: url();
+}
+
+#kitchen {
+	background: url();
 }
