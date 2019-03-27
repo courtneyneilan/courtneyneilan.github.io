@@ -32,7 +32,7 @@ header, main, footer {
 	text-align: center;
 }
 
-header, footer {
+header, footer, section {
 	background-color: #cdbdc4
 }
 
@@ -46,15 +46,20 @@ main {
 	width: 100%;
 	background: url(../images/plates.jpg);
 	background-size: cover;
-	opacity: 0.5;
+	opacity: 0.5; 
 }
+
+	/*How do I change opacoty of just the background and not the text on top?
+	What's the best way to handle the image height? 
+*/
 
 h1, #slogan{
 	color: white;
 }
 
 #shopnow, h1 { 
-	padding-top: 200px }
+	padding-top: 200px
+}
 
 
 
