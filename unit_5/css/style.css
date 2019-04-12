@@ -11,13 +11,31 @@ font-family: 'Roboto', sans-serif;
 body {
 	background-color: #cdbdc4;
 	font-family: Oswald, "Sans-Serif";
-	font-size: 16px;
-	text-align: center;
+	font-size: 24px;
 	line-height: 1.5em;
-
+	text-align: center;
 }
 
+/*For Unit 5 Homeowrk*/
+
 header {
+	background-color: #FFED74;
+}
+
+aside {
+	background-color: #FFC675;
+}
+
+article {
+	background-color: #E89C6C;
+}
+
+div, section {
+	background-color: #FFE2B8;
+}
+
+
+#landing {
 	background: url(../images/auribone.jpg) no-repeat center center scroll;
 	background-size: cover;
 	width: 100%;
@@ -29,31 +47,36 @@ header {
 */	
 
 
-nav a, #learnMore{
+nav a, {
+	background-color: #E8C66A;
 	text-decoration: underline;
 	text-underline-position: under;
 	color: white;
 	font-size: 1em;
-	padding: 5px
+	padding: 20px
 }
 
-#auribone {
-	width: 100%;
-	height: 100%; 
+#calltoaction {
+	text-decoration: underline;
+	text-underline-position: under;
+	color: white;
+	font-size: 1em;
+	padding: 20px
 }
 
 #slogan { 
 	font-family:  Didot, serif;
 	font-style: italic;
 	font-size: 2em;
-	padding: 20px;
+	padding: 40px;
 	margin: auto;
+	background-color: red;
 
  }
 	
 h1 {
 	font-family: Roboto, "Sans-Serif";
-	font-size: 5em;
+	font-size: 6em;
 	padding: 20px;
 	margin: auto;
 }
@@ -62,18 +85,39 @@ h3 {
 	font-family: Roboto, "Sans-Serif";
 	font-size: 2em;
 	text-decoration: underline;
+	margin: 1em auto;
 }
 
 p {
 	font-size: 1em;
+	margin: 1em auto;
 
 }
 
-section {
-	width: 30em;
+.aurifacts {
+	width: 50em;
+	margin: 2em auto;
+	background-color: blue;
+
+}
+
+main {
+	text-align: center:
+}
+
+img {
+	width: 70%;
+	height: 70%; 
+}
+
+#wrapper {
+	background-color: blue;
+	max-width: 50em;
+	padding: 20px;
 	margin: auto;
-	padding: 50px;
 }
+
+
 
 /*li {
 	text-align: left;
@@ -82,7 +126,6 @@ section {
 }*/
 
 footer {
-	padding: 20px;
-	margin: auto;
+	background-color: #FF957E;
+	padding: 1em;
 }
-
