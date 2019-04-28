@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald|Roboto');
+
+/*font-family: 'Oswald', sans-serif;
+font-family: 'Roboto', sans-serif;
+*/
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	background-color: blue;
+	font-family: Oswald, sans-serif;
+	font-size: 24px;
+	line-height: 1.5em;
+	text-align: center;
+}
+
+h1 {
+	font-family: Roboto, "Sans-Serif";
+	font-size: 8em;
+	padding: 20px;
+	border: solid 5px black;
+	display: inline-block;
+	margin: 150px auto;
+	background-color: orange;
+}
+
+nav {
+	background-color: gray;
+	float: right;
+	margin-right: 20px;
+	padding: 10px;
+}
+
+a {
+	color: white;
+	background-color: orange;
+}
+
+nav a {
+	background-color: red;
+	font-family: Arial, sans-serif;
+	font-size: 1em;
+	text-decoration: underline;
+	text-underline-position: under;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+a:hover { 
+	background-color: #aaaaaa;
+	 }
+
+/*/*h3 {
+	font-family: Roboto, "Sans-Serif";
+	font-size: 2em;
+	text-decoration: underline;
+	margin: 1em auto;
+}
+
+p {
+	font-size: 1em;
+	margin: 1em auto;
+	text-align: left; 
+}
+
+main {
+	text-align: center:
+}
+
+img {
+	width: 70%;
+	/*height: 70%; */
+}
+
+/*LoVe HAte*/
+
+
+
+footer {
+	background-color: #FF957E;
+	padding: 10px;
+	margin: auto; 
+}
+
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+
+.aurifacts {
+	width: 70%;
+	margin: auto;
+	background-color: blue;
+}
+
+.left {
+	float: left;
+	width: 35%;
+	margin: 0px auto;
+	padding: 0px;
+}
+
+.right {
+	float: right;
+	width: 35%;
+	margin: 0px;
+	padding: 0px:;
+	background-color: orange;
+}
+
+.second {
+	float: left;
+}
+
+.third {
+	float: left;
+}
+
+#landing {
+	background: url(../images/auribone.jpg) no-repeat center center scroll;
+	background-size: cover;
+	width: 100%;
+	height: 700px;
+	color: white;
+}
+
+/*How do I make background image faded but not the header text on top?
+*/	
+
+#calltoaction {
+	text-decoration: underline;
+	text-underline-position: under;
+	color: white;
+	font-size: 1em;
+	padding: 20px
+}
+
+#slogan { 
+	font-family:  Didot, serif;
+	font-style: italic;
+	font-size: 2em;
+	padding: 40px;
+	margin: auto;
+	background-color: green;
+	border: 
+
+ }
+	
+#wrapper {
+	background-color: blue;
+	max-width: 50em;
+	padding: 20px;
+	margin: auto;
+}
+
+
+
+/*li {
+	text-align: left;
+	margin: auto;
+
+}*/
+
